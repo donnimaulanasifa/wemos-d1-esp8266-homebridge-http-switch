@@ -6,8 +6,8 @@ ESP8266WebServer server(80);
 const char* ssid = "yourssid";
 const char* password = "yourpass";
 
-const byte button_pin = D1;
-const byte relay_pin = D2;
+const byte button_pin = 5; // pin D2
+const byte relay_pin = 4; // pin D2
 
 byte button_pressed;
 
