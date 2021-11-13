@@ -26,16 +26,17 @@ sudo npm install -g homebridge-http-switch
 
 Edit your config.json file (usually located in ~/.homebridge/config.json). find the "accessories", then put your device there :
 
-```diff
+```json
 "accessories": [
    {
       "accessory": "HTTP-SWITCH",
       "name": "Switch",
       "switchType": "stateful",
       "httpMethod": "POST",
-      "onUrl": "http://yourip/relay_on",
-      "offUrl": "http:// @@ yourip @@ /relay_off",
-      "statusUrl": "http://yourip/relay_status",
+      "onUrl": "http:// /yourip /relay_on",
+      "offUrl": "http:// /yourip /relay_off",
+      
+      "statusUrl": "http:// /yourip /relay_status",
    }   
 ]
 ```
