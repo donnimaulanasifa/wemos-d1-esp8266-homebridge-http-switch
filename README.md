@@ -21,7 +21,7 @@ Upload the code to the Wemos D1, and set the wiring like the picture below :
 
 First of all you need to have [Homebridge](https://github.com/nfarina/homebridge) installed. Refer to the repo for 
 instructions.  
-Then run the following command to install `homebridge-http-switch`
+Then run the following command to install [homebridge-http-switch](https://github.com/Supereg/homebridge-http-switch)
 ```
 sudo npm install -g homebridge-http-switch
 ```
