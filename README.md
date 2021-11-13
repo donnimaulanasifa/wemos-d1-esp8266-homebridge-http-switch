@@ -8,7 +8,7 @@ Wemos D1 have a lot of function that can be merged with Homebridge, and controll
 - Wireless network with internet connection
 - Wemos D1 ( ESP8266 Module )
 - Arduino relay module
-- Homebridge
+- [Homebridge (Refer to the repo for instructions)](https://github.com/nfarina/homebridge)
 - Apple device
 
 ## Chapter 2 Wemos D1
@@ -19,9 +19,7 @@ Upload the code to the Wemos D1, and set the wiring like the picture below :
 
 ## Chapter 3 Homebridge
 
-First of all you need to have [Homebridge](https://github.com/nfarina/homebridge) installed. Refer to the repo for 
-instructions.  
-Then run the following command to install [homebridge-http-switch](https://github.com/Supereg/homebridge-http-switch)
+Run the following command to install [homebridge-http-switch](https://github.com/Supereg/homebridge-http-switch)
 ```
 sudo npm install -g homebridge-http-switch
 ```
