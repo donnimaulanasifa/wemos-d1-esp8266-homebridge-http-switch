@@ -49,7 +49,3 @@ Edit your config.json file (usually located in ~/.homebridge/config.json). find 
 ## Chapter 4 Finally
 
 Now that everything is in place its time to test!
-
-You should see Homebridge as an accessory available to be connected. Use the pin number 031-45-154, this can be customised in the config.json file.
-
-Once connected you can move this around within the App into the desired Room etc. Give Siri a test! It should be able to control the relay using voice!
