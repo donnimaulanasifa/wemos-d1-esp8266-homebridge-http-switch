@@ -4,6 +4,9 @@ You want to use Home app on your Apple device ?
 Wemos D1 have a lot of function that can be merged with Homebridge, and controlled through apple device :)
 
 - [Chapter 1 Requirement](#chapter-1-requirement)
+- [Chapter 2 Wemos D1](#chapter-2-wemos-d1)
+- [Chapter 3 Homebridge](#chapter-3-homebridge)
+- [Chapter 4 Finally](#chapter-4-finally)
 
 ## Chapter 1 Requirement
 
