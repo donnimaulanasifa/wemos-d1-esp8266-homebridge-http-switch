@@ -20,8 +20,7 @@ Wemos D1 have a lot of function that can be merged with Homebridge, and controll
 ## Chapter 2 Wemos D1
 
 Upload the code to the Wemos D1, and set the wiring like the picture below :
-
-![Diagram](https://)
+![Diagram](https://ibb.co/Bj2yYq5"><img src="https://i.ibb.co/gwZSczL/Sketch-Donnimsifa.jpg)
 
 ## Chapter 3 Homebridge
 
