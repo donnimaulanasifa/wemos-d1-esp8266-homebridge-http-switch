@@ -35,7 +35,6 @@ Edit your config.json file (usually located in ~/.homebridge/config.json). find 
       "httpMethod": "POST",
       "onUrl": "http://yourip/relay_on",
       "offUrl": "http://yourip/relay_off",
-      
       "statusUrl": "http://yourip/relay_status",
    }   
 ]
