@@ -19,6 +19,13 @@ Wemos D1 have a lot of function that can be merged with Homebridge, and controll
 
 ## Chapter 2 Wemos D1
 
+Put your ssid and password into the code :
+
+```
+const char* ssid = "yourssid";
+const char* password = "yourpass";
+```
+
 Upload the code to the Wemos D1, and set the wiring like the picture below :
 ![Diagram](https://i.ibb.co/gwZSczL/Sketch-Donnimsifa.jpg)
 
