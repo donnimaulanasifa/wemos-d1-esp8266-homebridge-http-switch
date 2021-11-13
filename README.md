@@ -27,7 +27,7 @@ const char* password = "yourpass";
 ```
 
 Upload the code to the Wemos D1, and set the wiring like the picture below :
-![Diagram](https://i.ibb.co/gwZSczL/Sketch-Donnimsifa.jpg)
+![Diagram](https://i.ibb.co/GFSgVB1/donnimsifasketch.png)
 
 ## Chapter 3 Homebridge
 
