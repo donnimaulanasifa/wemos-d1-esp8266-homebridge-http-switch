@@ -6,7 +6,7 @@ ESP8266WebServer server(80);
 const char* ssid = "yourssid";
 const char* password = "yourpass";
 
-const byte relay_pin = D2;
+const byte relay_pin = 4; // pin D2
 
 void setup() {
   Serial.begin(115200);
