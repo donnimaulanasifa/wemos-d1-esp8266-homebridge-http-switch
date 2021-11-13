@@ -13,7 +13,7 @@ Wemos D1 have a lot of function that can be merged with Homebridge, and controll
 - Wireless network with internet connection
 - Wemos D1 ( ESP8266 Module )
 - Arduino relay module
-- button (optional)
+- Push button (optional)
 - [Homebridge (Refer to the repo for instructions)](https://github.com/nfarina/homebridge)
 - Apple device
 
