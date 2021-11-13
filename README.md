@@ -3,6 +3,8 @@
 You want to use Home app on your Apple device ?
 Wemos D1 have a lot of function that can be merged with Homebridge, and controlled through apple device :)
 
+- [Chapter 1 Requirement](#chapter-1-requirement)
+
 ## Chapter 1 Requirement
 
 - Wireless network with internet connection
