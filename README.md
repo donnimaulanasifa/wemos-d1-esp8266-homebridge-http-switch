@@ -1,1 +1,52 @@
-# wemos-d1-esp8266-homebridge-http-switch
+# Wemos D1 http switch
+
+You want to use Home app on your Apple device ?
+Wemos D1 have a lot of function that can be merged with Homebridge, and controlled through apple device :)
+
+## Chapter 1 Requirement
+
+- Wireless network with internet connection
+- Wemos D1 ( ESP8266 Module )
+- Arduino relay module
+- Homebridge
+- Apple device
+
+## Chapter 2 Wemos D1
+
+Upload the code to the Wemos D1, and set the wiring like the picture below :
+
+![Diagram](https://i.ibb.co/Jrzr2Hm/68747470733a2f2f696d6167652e6962622e636f2f68454468464c2f576972696e672d52656c61792d4469616772616d2e6a7067.jpg)
+
+All usual warnings apply when dealing with 120v/220v AC - TAKE CARE.
+
+Customise your IP address as needed.
+
+## Chapter 3 Homebridge
+
+```
+sudo npm install homebridge-http or sudo npm install -g homebridge-http
+```
+
+Open your config.json file which should be in ~/.homebridge/config.json using your favourite text editor and add the following
+
+```
+"accessories": [
+   {
+      "accessory": "HTTP-SWITCH",
+      "name": "Switch",
+      "switchType": "stateful",
+      "httpMethod": "POST",
+      "onUrl": "http://yourip/relay_on",
+      "offUrl": "http://yourip/relay_off",
+      "statusUrl": "http://yourip/relay_status",
+   }   
+]
+```
+
+## Chapter 4 Finally
+
+Now that everything is in place its time to test!
+
+You should see Homebridge as an accessory available to be connected. Use the pin number 031-45-154, this can be customised in the config.json file.
+
+Once connected you can move this around within the App into the desired Room etc. Give Siri a test! It should be able to control the relay using voice!
