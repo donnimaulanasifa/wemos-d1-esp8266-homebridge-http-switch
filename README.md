@@ -17,17 +17,17 @@ Upload the code to the Wemos D1, and set the wiring like the picture below :
 
 ![Diagram](https://i.ibb.co/Jrzr2Hm/68747470733a2f2f696d6167652e6962622e636f2f68454468464c2f576972696e672d52656c61792d4469616772616d2e6a7067.jpg)
 
-All usual warnings apply when dealing with 120v/220v AC - TAKE CARE.
-
-Customise your IP address as needed.
-
 ## Chapter 3 Homebridge
 
+First of all you need to have [Homebridge](https://github.com/nfarina/homebridge) installed. Refer to the repo for 
+instructions.  
+Then run the following command to install `homebridge-http-switch`
 ```
-sudo npm install homebridge-http or sudo npm install -g homebridge-http
+sudo npm install -g homebridge-http-switch
 ```
 
-Open your config.json file which should be in ~/.homebridge/config.json using your favourite text editor and add the following
+Edit your config.json file (usually located in ~/.homebridge/config.json)
+find the "accessories", then add your accesory device :
 
 ```
 "accessories": [
